@@ -5,5 +5,4 @@ export default function Products() {
         Products Page
       </div>
     );
-  }
-  
+}
