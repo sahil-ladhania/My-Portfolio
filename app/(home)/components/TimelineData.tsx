@@ -1,6 +1,6 @@
 export const timelineData = [
     {
-      title: "🍔 YUMMMZO",
+      title: "YUMMMZO",
       content: (
         <div className="space-y-4 text-white">
           <p className="text-base md:text-lg">
@@ -23,7 +23,7 @@ export const timelineData = [
     },
   
     {
-      title: "🎮 Tokar",
+      title: "Tokar",
       content: (
         <div className="space-y-4 text-white">
           <p className="text-base md:text-lg">
@@ -46,7 +46,7 @@ export const timelineData = [
     },
   
     {
-      title: "💻 LeetLab",
+      title: "LeetLab",
       content: (
         <div className="space-y-4 text-white">
           <p className="text-base md:text-lg">

@@ -35,19 +35,19 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="bg-white dark:bg-black font-sans px-4 sm:px-6 lg:px-8"
+      className="bg-white dark:bg-black font-sans px-4 sm:px-6"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20">
+      <div className="py-20">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Work Experience
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
           No corporate job yet, but my products are hiring 😁
         </p>
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative mx-auto pb-20">
         {data.map((item, index) => (
           <div
             key={index}

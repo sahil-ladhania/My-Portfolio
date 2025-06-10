@@ -1,8 +1,10 @@
+import { products } from "./components/ProductsData";
+import { LayoutGrid } from "./components/ProductsGridComponent";
 
 export default function Products() {
     return (
       <div>
-        Products Page
+        <LayoutGrid cards={products} />
       </div>
     );
 }
